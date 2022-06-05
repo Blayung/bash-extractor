@@ -1,5 +1,5 @@
 # Bash extractor
-A simple bash script to extract most common archive types.
+A simple bash script to extract most common archive types.  
 **Supported extensions:**
 * zip
 * tar
