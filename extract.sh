@@ -14,6 +14,8 @@ fi
 
 if [ $1 == *.zip ]; then
     unzip "$1"
+elif [ $1 == *.rar ]; then
+    rar x "$1"
 elif [ $1 == *.tar ] || [ $1 == *.tgz ] || [ $1 == *.tar.gz ] || [ $1 == *.tar.xz ] || [ $1 == *.txz ]; then
     tar -xf "$1"
 else
