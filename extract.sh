@@ -16,7 +16,7 @@ if [ $1 == *.zip ]; then
     unzip "$1"
 elif [ $1 == *.rar ]; then
     rar x "$1"
-elif [ $1 == *.tar ] || [ $1 == *.tgz ] || [ $1 == *.tar.gz ] || [ $1 == *.tar.xz ] || [ $1 == *.txz ]; then
+elif [ $1 == *.tar ] || [ $1 == *.tgz ] || [ $1 == *.tar.gz ] || [ $1 == *.txz ] || [ $1 == *.tar.xz ] || [ $1 == *.tar.bz2 ]; then
     tar -xf "$1"
 else
     echo "Specified file has unrecognized file extension."

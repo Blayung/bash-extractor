@@ -6,7 +6,8 @@ A simple bash script to extract most common archive types.
 * rar
 * tar
 * tar.gz (tgz)
-* tar.xz (txz)  
+* tar.xz (txz)
+* tar.bz2  
   
 **Dependencies:**
 * unzip
