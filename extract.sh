@@ -1,5 +1,5 @@
 #!/bin/bash
-# Extraction script by Blayung.
+# This was made by https://github.com/Blayung
 
 if [ -z "$1" ]; then
     echo "No file name was specified."
@@ -19,5 +19,5 @@ elif [[ $1 =~ ^.*\.(rar)$ ]]; then
 elif [[ $1 =~ ^.*\.(tar|tgz|tar.gz|txz|tar.xz|tar.bz2)$ ]]; then
     tar -xf "$1"
 else
-    echo "Specified file has unrecognized file extension."
+    echo "The specified file has an unrecognized file extension."
 fi
