@@ -1,5 +1,5 @@
 #!/bin/bash
-# This was made by https://github.com/Blayung
+# This script was made by https://github.com/Blayung
 
 if [ -z "$1" ]; then
     echo "No file name was specified."
